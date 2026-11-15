@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Velvet Matte Lipstick",
+        "description": "Long-lasting matte lipstick with a smooth finish.",
+        "price": 450,
+        "image": "https://demo-backend.infinityfree.me/images/lipstick.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Liquid Foundation",
+        "description": "Lightweight foundation for an even skin tone.",
+        "price": 650,
+        "image": "https://demo-backend.infinityfree.me/images/foundation.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Powder Blush",
+        "description": "Soft powder blush for a natural-looking glow.",
+        "price": 380,
+        "image": "https://demo-backend.infinityfree.me/images/blush.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Eyeshadow Palette",
+        "description": "Versatile eyeshadow colors for everyday looks.",
+        "price": 720,
+        "image": "https://demo-backend.infinityfree.me/images/eyeshadow.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Volume Mascara",
+        "description": "Mascara designed to add volume and definition.",
+        "price": 350,
+        "image": "https://demo-backend.infinityfree.me/images/mascara.jpg"
+    }
+]
