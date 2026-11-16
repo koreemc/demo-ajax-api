@@ -1,9 +1,7 @@
-[
-    {
+{
         "id": 1,
         "name": "Velvet Matte Lipstick",
         "description": "Long-lasting matte lipstick with a smooth finish.",
         "price": 450,
         "image": "https://koreemc.github.io/demo-ajax-api/images/lipstick.jpg"
-    }
-]
+}
