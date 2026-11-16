@@ -65,7 +65,7 @@ loadLipstickButton.addEventListener("click", function() {
             if (!response.ok) {
                 throw new Error("Product not found.");
             }
-
+            console.log(response.json());
             return response.json();
 
         })
