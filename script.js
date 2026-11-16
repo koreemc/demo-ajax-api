@@ -5,7 +5,7 @@ const loadLipstickButton = document.getElementById("loadLipstick");
 const productList = document.getElementById("productList");
 
 // API URL
-const apiURL = "https://koreemc.github.io/demo-ajax-api/products.json";
+const apiURL = "https://koreemc.github.io/demo-ajax-api/";
 
 
 // FUNCTION 1: Load all products
@@ -15,7 +15,7 @@ loadAllButton.addEventListener("click", function() {
     productList.textContent = "Loading all products...";
 
     // Send AJAX GET request
-    fetch(apiURL)
+    fetch(apiURL + "products.json")
 
         .then(response => {
 
@@ -58,7 +58,7 @@ loadLipstickButton.addEventListener("click", function() {
     productList.textContent = "Loading eyeshadow...";
 
     // Send AJAX GET request for product ID 4 for eyeshadow
-    fetch(apiURL + "?id=4")
+    fetch(apiURL + "oneproduct.json")
 
         .then(response => {
 
